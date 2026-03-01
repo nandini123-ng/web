@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gradients Demo</title>
+
+<style>
+     body{
+        text-align:center;
+    } 
+    table{
+        margin: auto;
+    }
+
+    div{
+        width: 200px;
+        height: 150px;
+        border: 2px solid black;
+    }
+
+    /* Linear Gradient */
+    .c1{ background-image: linear-gradient(red, yellow); }
+    .c2{ background-image: linear-gradient(to right, blue, pink); }
+    .c3{ background-image: linear-gradient( green 0%,green 25%, orange 25%,orange 50%); }
+
+    /* Radial Gradient */
+    .c4{ background-image: radial-gradient(red, yellow, green); }
+    .c5{ background-image: radial-gradient(circle, blue, white, purple); }
+    .c6{ background-image: radial-gradient(red 20%, yellow 30%, green 50%); }
+
+    /* Conic Gradient */
+    .c11{ background-image: conic-gradient(red, yellow, green); }
+    .c12{ background-image: conic-gradient(from 90deg, blue, pink, purple); }
+    .c13{ background-image: conic-gradient(red 0deg, yellow 120deg, green 240deg); }
+</style>
+</head>
+
+<body>
+
+<h1>Linear Gradient</h1>
+<table cellspacing="20px">
+<tr>
+<td>
+    <h3>Method 1</h3>
+    <div class="c1"></div>
+</td>
+
+<td>
+    <h3>Method 2</h3>
+    <div class="c2"></div>
+</td>
+
+<td>
+    <h3>Method 3</h3>
+    <div class="c3"></div>
+</td>
+</tr>
+</table>
+
+<hr>
+
+<h1>Radial Gradient</h1>
+<table cellspacing="20px">
+<tr>
+<td>
+    <h3>Method 1</h3>
+    <div class="c4"></div>
+</td>
+
+<td>
+    <h3>Method 2</h3>
+    <div class="c5"></div>
+</td>
+
+<td>
+    <h3>Method 3</h3>
+    <div class="c6"></div>
+</td>
+</tr>
+</table>
+<hr>
+<h1>Conic Gradient</h1>
+<table cellspacing="20px">
+<tr>
+<td>
+    <h3>Method 1</h3>
+    <div class="c11"></div>
+</td>
+<td>
+    <h3>Method 2</h3>
+    <div class="c12"></div>
+</td>
+<td>
+    <h3>Method 3</h3>
+    <div class="c13"></div>
+</td>
+</tr>
+</table>
+</body>
+</html>
