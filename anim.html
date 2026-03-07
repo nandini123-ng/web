@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Animation in CSS*/
+        body{
+              display:flex;
+              justify-content:center;
+            
+        }
+        /*duration in sec,millisec,
+        timing function in linear,ease,ease-in,ease-out,ease-in-out,
+        delay function may be in sec,
+        iteration count in 1,2,.....infinite,
+        direction may be in normal,reverse,alternate,alternate-reverse*/
+        div{
+            height:200px;
+            padding-left:100px;
+            width:200px;
+            background-color:gold;
+            animation-name:colorchange;
+            animation-duration: 1s;
+            margin-top:250px;
+        }
+        div:hover{
+            width:900px;
+        }
+        @keyframes colorchange{
+            from{
+                background-color:gold;
+            }
+            to{
+                background-color:deeppink;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat minus atque, laudantium laborum optio cum, quod recusandae quaerat, suscipit quam ea? Voluptate neque maxime unde, molestias adipisci praesentium? Architecto, beatae.
+    </div>
+</body>
+</html>
